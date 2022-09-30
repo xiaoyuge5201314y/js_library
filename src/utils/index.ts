@@ -8,3 +8,4 @@
  */
 export * from './deepClone';
 export * from './dataType';
+export * from './sort';

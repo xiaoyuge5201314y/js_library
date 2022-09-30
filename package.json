@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rollup --config rollup.config.js",
+    "dev": "nodemon test/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "publishConfig": {

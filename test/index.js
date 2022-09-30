@@ -1,12 +1,3 @@
-const {deepClone} =require( '../dist/js_library.cjs')
-
-const data = {
-    a:1,
-    b:{
-        name:123213
-    }
-}
-
-const res = deepClone(data)
-res.b.name=2
-console.log(data,res)
+const {sort,chooseSort,insertSort} =require( '../dist/@yu_org/js_library.cjs')
+const res =insertSort([123,4,543,645,55,2,756,999])
+console.log(res)
