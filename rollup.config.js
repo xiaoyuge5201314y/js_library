@@ -21,7 +21,7 @@ import pkg from './package.json';
 // 拿到package.json的name属性来动态设置打包名称
 const libName = pkg.name;
 export default defineConfig({
-    input: 'src/index.js',
+    input: 'src/index.ts',
     output: [{
             file: `dist/${libName}.cjs.js`,
             // commonjs格式
