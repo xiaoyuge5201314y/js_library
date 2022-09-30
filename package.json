@@ -1,11 +1,15 @@
 {
-  "name": "yu_js_library",
+  "name": "@yu_org/js_library",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "rollup --config rollup.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
